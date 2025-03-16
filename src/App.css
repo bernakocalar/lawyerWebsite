@@ -1,0 +1,103 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(186, 182, 182);
+  font-weight: bold;
+}
+p{
+  margin: 0 2rem;
+}
+.navbar{
+  display: flex;
+justify-content: space-between;
+background-color:white;
+}
+.navList{
+  display: flex;
+  justify-content: space-around;
+  gap: 10rem;
+  margin: 1rem 10rem;
+}
+.navItem{
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+  display: block;
+  border: 1px solid darkslategray;
+  background-color: #325f84;
+  padding: 1rem;
+  border-radius: 1rem;
+
+}
+.navİtem:hover{
+  background-color: rgb(52, 106, 192);
+}
+.navItem:active{
+  background-color: rgb(19, 17, 168);
+}
+.navItem:focus{
+  background-color: rgb(19, 17, 168);
+}
+.container{
+  display: flex;
+  height: 80%;
+  margin: 2rem 3rem;
+  gap:2rem;
+  font-size: 1.5rem;
+}
+.leftContainer{
+  width: 50%;
+  background-color: gray;
+  border-radius: 20px;
+}
+.rightContainer{
+  background-color: beige;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+.teamImage{
+  border-radius: 15px;
+  padding: 4rem;
+  margin: 2rem 4rem;
+}
+.baslik{
+  text-align: center;
+}
+.communication{
+  display: block;
+  align-items: center;
+}
+.line{
+  display: flex;
+  margin: 2rem 2rem;
+}
+.icons{
+  display: flex;
+  flex-direction: column;
+  gap:0.5rem;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+.footer-content{
+  display: flex;
+  background-color: #325f84;
+  color: white;
+  list-style: none;
+  justify-content: space-around;
+  font-size: 2rem;
+}
+.footerNav{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.footer-content a{
+  color: white;
+  text-decoration: none;
+  display: block;
+}
